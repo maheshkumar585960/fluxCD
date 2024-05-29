@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: gcr.io/rig-cto-coe-cloud-coe-gcp/distilgpt2@sha256:3e6db989c8190d0baa9883acb3560dfc55d31008f6ef53690136c3d052fda085
+      - image: maheshkumar5859/distilgpt2:latest
         name: distilgpt2
         ports:
         - containerPort: 80
