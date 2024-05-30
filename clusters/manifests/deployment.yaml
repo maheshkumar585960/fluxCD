@@ -19,4 +19,4 @@ spec:
       - image: maheshkumar5859/distilgpt2:latest
         name: distilgpt2
         ports:
-        - containerPort: 8080
+        - containerPort: 80
