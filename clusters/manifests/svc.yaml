@@ -7,7 +7,7 @@ metadata:
   namespace: demo
 spec:
   ports:
-    - nodePort: 31168
+    - nodePort: 31268
       port: 8080
       protocol: TCP
       targetPort: 8080
