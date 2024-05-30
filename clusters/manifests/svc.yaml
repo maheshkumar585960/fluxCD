@@ -1,10 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  labels:
-    app.kubernetes.io/instance: demo-ml
   name: demo-svc
-  namespace: demo-ml
+  namespace: demo
 spec:
   ports:
     - nodePort: 31168
@@ -12,5 +10,5 @@ spec:
       protocol: TCP
       targetPort: 8080
   selector:
-    app: nginx
+    app: distilgpt2
   type: NodePort
