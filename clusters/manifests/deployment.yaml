@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - image: maheshkumar5859/distilgpt:latest
-        name: distilgpt2
+        name: distilgpt
         ports:
         - containerPort: 80
