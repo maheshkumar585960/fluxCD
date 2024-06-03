@@ -19,4 +19,4 @@ spec:
       - image: maheshkumar5859/hello-world:latest
         name: distilgpt
         ports:
-        - containerPort: 80
+        - containerPort: 8000
