@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - image: maheshkumar5859/weatherforecast:latest
-        name: distilgpt
+        name: weatherforecast
         ports:
         - containerPort: 8000
