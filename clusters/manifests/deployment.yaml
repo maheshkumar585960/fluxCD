@@ -16,7 +16,7 @@ spec:
         app: distilgpt2
     spec:
       containers:
-      - image: nginx:stable-alpine3.19-perl
-        name: nginx
+      - image: maheshkumar5859/hello-world:latest
+        name: hello-world
         ports:
-        - containerPort: 80
+        - containerPort: 3003
