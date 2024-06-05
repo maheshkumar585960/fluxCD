@@ -16,7 +16,7 @@ spec:
         app: distilgpt2
     spec:
       containers:
-      - image: nginx:stable-alpine3.19-perl
-        name: nginx
+      - image: maheshkumar5859/insurance:latest
+        name: insurance
         ports:
-        - containerPort: 80
+        - containerPort: 8080
