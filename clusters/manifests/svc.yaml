@@ -9,7 +9,7 @@ spec:
   selector:
     app: distilgpt2
   ports:
-    - port: 80
+    - port: 8080
       targetPort: 8080
       protocol: TCP
       name: http
