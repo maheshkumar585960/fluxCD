@@ -16,7 +16,7 @@ spec:
         app: distilgpt2
     spec:
       containers:
-      - image: bihero/world:latest
-        name: world
+      - image: nginx:stable-alpine3.19-perl
+        name: nginx
         ports:
         - containerPort: 8000
