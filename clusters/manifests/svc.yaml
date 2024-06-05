@@ -10,6 +10,6 @@ spec:
     app: distilgpt2
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 8000
       protocol: TCP
       name: http
