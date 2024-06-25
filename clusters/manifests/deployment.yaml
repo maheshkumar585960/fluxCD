@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - image: maheshkumar5859/sentiment-analysis1:latest
-        name: distilgpt2
+        name: sentiment-analysis1
         ports:
         - containerPort: 8000
